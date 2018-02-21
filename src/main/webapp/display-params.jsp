@@ -16,7 +16,7 @@
             function(m, key, value)
             {
                 vars[key] = value;
-                document.write("<p>" + key + ": " + value + "</p>");
+                document.write("<p>" + key + ": " + decodeURIComponent(value) + "</p>");
             });
 
             return vars;
