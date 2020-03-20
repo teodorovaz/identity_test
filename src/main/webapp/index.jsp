@@ -51,7 +51,7 @@ if (cookies != null) {
 
 <% } %>
 
-First Change
-<iframe src="https://dev-museumvereniging.cs105.force.com/s/orderflow?VarCode=1234"></iframe>
+First Change<br>
+<iframe height="800" width="500" src="https://dev-museumvereniging.cs105.force.com/s/orderflow?VarCode=1234"></iframe>
 </body>
 </html>
